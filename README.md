@@ -1,170 +1,161 @@
 # Portfolio Website - Ernesto Lázaro Guerrero
 
-A modern, responsive portfolio website for UI/UX Designer Ernesto Lázaro Guerrero, built with React, TypeScript, and Tailwind CSS.
+Sitio web profesional de portafolio moderno y responsivo de Ernesto Lázaro Guerrero, Ingeniero y Diseñador UX/UI, construido con React, TypeScript y Tailwind CSS.
 
-![Portfolio Preview](https://images.unsplash.com/photo-1633250391894-397930e3f5f2?w=800)
+<img width="762" height="516" alt="PortadaWeb_Laz" src="https://github.com/user-attachments/assets/8056e375-0ce0-48b3-9af1-54f69c834348" />
 
-## ✨ Features
+# ✨ Características
 
-- 🎨 **Modern Design System** - Comprehensive design tokens and guidelines
-- 📱 **Fully Responsive** - Optimized for desktop, tablet, and mobile
-- ⚡ **High Performance** - Fast loading times and smooth animations
-- ♿ **Accessible** - WCAG 2.1 AA compliant
-- 🎭 **Interactive** - Smooth hover effects and transitions
-- 🧩 **Component-Based** - Modular and maintainable architecture
+🎨 Sistema de diseño moderno – Tokens y lineamientos de diseño completos
+📱 Totalmente responsivo – Optimizado para escritorio, tablet y móvil
+⚡ Alto rendimiento – Tiempos de carga rápidos y animaciones fluidas
+♿ Accesible – Cumple con WCAG 2.1 nivel AA
+🎭 Interactivo – Efectos hover y transiciones suaves
+🧩 Basado en componentes – Arquitectura modular y fácil de mantener
 
-## 🚀 Quick Start
+# 🚀 Inicio rápido
+Requisitos previos
+Node.js 16 o superior
 
-### Prerequisites
-- Node.js 16 or higher
-- npm or pnpm package manager
+Gestor de paquetes npm o pnpm
 
-### Installation
-
-```bash
-# Install dependencies
+Instalación
+# Instalar dependencias
 npm install
 
-# Start development server
+# Iniciar servidor de desarrollo
 npm run dev
 
-# Build for production
+# Compilar para producción
 npm run build
-```
 
-## 📁 Project Structure
-
-```
+📁 Estructura del proyecto
 portfolio/
 ├── src/
 │   ├── app/
-│   │   ├── components/     # React components
-│   │   └── App.tsx        # Main application
-│   └── styles/            # CSS and design tokens
-├── DESIGN_SYSTEM.md       # Complete design specifications
-├── TECH_LEADERS_PRESENTATION.md  # Technical documentation
-├── DEVELOPER_GUIDE.md     # Developer quick reference
+│   │   ├── components/     # Componentes React
+│   │   └── App.tsx        # Aplicación principal
+│   └── styles/            # CSS y tokens de diseño
+├── DESIGN_SYSTEM.md       # Especificaciones completas de diseño
+├── TECH_LEADERS_PRESENTATION.md  # Documentación técnica
+├── DEVELOPER_GUIDE.md     # Guía rápida para desarrolladores
 └── package.json
-```
 
-## 🎨 Design System
+# 🎨 Sistema de diseño
 
-This project includes a comprehensive design system with:
+Este proyecto incluye un sistema de diseño integral con:
+Paleta de colores: Tonos azul marino y acentos en azul
+Tipografía: Escalado de fuentes responsivo
+Sistema de espaciado: Tokens de espaciado consistentes
+Librería de componentes: Componentes UI reutilizables
+Grid responsivo: Sistema de layout mobile-first
 
-- **Color Palette**: Navy and blue accent colors
-- **Typography**: Responsive font scaling
-- **Spacing System**: Consistent spacing tokens
-- **Component Library**: Reusable UI components
-- **Responsive Grid**: Mobile-first layout system
+Consulta DESIGN_SYSTEM.md
+ para ver las especificaciones completas.
 
-See [DESIGN_SYSTEM.md](./DESIGN_SYSTEM.md) for complete specifications.
+# 💻 Stack tecnológico
 
-## 💻 Technology Stack
+React 18.3.1 – Framework de interfaz de usuario
+TypeScript – Tipado seguro
+Tailwind CSS 4.1.12 – Estilos
+Vite 6.3.5 – Herramienta de construcción
+Lucide React – Librería de íconos
+Motion – Librería de animaciones
 
-- **React 18.3.1** - UI framework
-- **TypeScript** - Type safety
-- **Tailwind CSS 4.1.12** - Styling
-- **Vite 6.3.5** - Build tool
-- **Lucide React** - Icon library
-- **Motion** - Animation library
+# 📱 Secciones
 
-## 📱 Sections
+Hero – Introducción con foto de perfil y llamadas a la acción
+Sobre mí – Biografía y certificaciones
+Portafolio – Proyectos destacados con enlaces a casos de estudio
+Habilidades – Etiquetas de habilidades categorizadas
+Contacto – Llamada a la acción y enlaces a redes sociales
 
-1. **Hero** - Introduction with profile photo and CTAs
-2. **About** - Biography and certifications
-3. **Portfolio** - Project showcase with case study links
-4. **Skills** - Categorized skill tags
-5. **Contact** - Call-to-action and social links
+# 🎯 Funcionalidades clave
+Diseño responsivo
+Enfoque mobile-first
+Breakpoints: 768px (tablet), 1024px (escritorio)
+Tipografía y espaciado fluidos
+Navegación adaptativa (menú hamburguesa en móvil)
+Rendimiento
+Tamaño del bundle optimizado
+Carga diferida (lazy loading) de imágenes
+Purga de CSS con Tailwind
+Servidor de desarrollo rápido con Vite
+Accesibilidad
+Estructura semántica en HTML
+Etiquetas ARIA para elementos interactivos
+Soporte para navegación por teclado
+Contraste de color suficiente (WCAG AA)
+Áreas táctiles responsivas (mínimo 44px)
 
-## 🎯 Key Features
+# 🛠️ Desarrollo
+Desarrollo de componentes
+Los componentes se encuentran en /src/app/components/:
+Header.tsx – Navegación con menú móvil
+HeroSection.tsx – Sección principal con perfil y CTAs
+AboutSection.tsx – Sección de biografía
+PortfolioSection.tsx – Muestra de proyectos
+SkillsSection.tsx – Habilidades y experiencia
+ContactSection.tsx – Llamada a la acción de contacto
+Footer.tsx – Pie de página del sitio
+Lineamientos de estilos
 
-### Responsive Design
-- Mobile-first approach
-- Breakpoints: 768px (tablet), 1024px (desktop)
-- Fluid typography and spacing
-- Adaptive navigation (hamburger menu on mobile)
+Utiliza los tokens de diseño desde theme.css:
 
-### Performance
-- Optimized bundle size
-- Lazy loading for images
-- CSS purging with Tailwind
-- Fast Vite development server
-
-### Accessibility
-- Semantic HTML structure
-- ARIA labels for interactive elements
-- Keyboard navigation support
-- Sufficient color contrast (WCAG AA)
-- Responsive tap targets (44px minimum)
-
-## 🛠️ Development
-
-### Component Development
-
-Components are located in `/src/app/components/`:
-- `Header.tsx` - Navigation with mobile menu
-- `HeroSection.tsx` - Hero with profile and CTAs
-- `AboutSection.tsx` - Biography section
-- `PortfolioSection.tsx` - Project showcase
-- `SkillsSection.tsx` - Skills and expertise
-- `ContactSection.tsx` - Contact CTA
-- `Footer.tsx` - Site footer
-
-### Styling Guidelines
-
-Use design tokens from `theme.css`:
-```jsx
 <div className="bg-[var(--portfolio-navy-dark)] text-[var(--portfolio-text-primary)]">
-  Content
+  Contenido
 </div>
-```
 
-See [DEVELOPER_GUIDE.md](./DEVELOPER_GUIDE.md) for detailed development instructions.
 
-## 📖 Documentation
+Consulta DEVELOPER_GUIDE.md
+ para instrucciones detalladas de desarrollo.
 
-- **[DESIGN_SYSTEM.md](./DESIGN_SYSTEM.md)** - Complete design specifications and guidelines
-- **[TECH_LEADERS_PRESENTATION.md](./TECH_LEADERS_PRESENTATION.md)** - Technical architecture and implementation details
-- **[DEVELOPER_GUIDE.md](./DEVELOPER_GUIDE.md)** - Quick reference for developers
+# 📖 Documentación
 
-## 🔮 Future Enhancements
+DESIGN_SYSTEM.md
+ – Especificaciones y lineamientos de diseño
 
-- [ ] CMS integration for easy content updates
-- [ ] Blog section for case studies and articles
-- [ ] Contact form with backend integration
-- [ ] Dark mode toggle
-- [ ] Multi-language support (English/Spanish)
-- [ ] Scroll-triggered animations
-- [ ] Analytics integration
-- [ ] Automated testing suite
+TECH_LEADERS_PRESENTATION.md
+ – Arquitectura técnica y detalles de implementación
 
-## 🤝 Contributing
+DEVELOPER_GUIDE.md
+ – Referencia rápida para desarrolladores
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+# 🔮 Mejoras futuras
 
-## 📄 License
+ Integración con CMS para actualización sencilla de contenido
+ Sección de blog para casos de estudio y artículos
+ Formulario de contacto con integración backend
+ Alternador de modo oscuro
+ Soporte multiidioma (Inglés/Español)
+ Animaciones activadas por scroll
+ Integración de analítica
+ Suite de pruebas automatizadas
 
-This project is private and proprietary.
+# 🤝 Contribuciones
 
-## 👤 Author
+Haz un fork del repositorio
+Crea una rama de funcionalidad (git checkout -b feature/nueva-funcionalidad)
+Realiza tus commits (git commit -m 'Agregar nueva funcionalidad')
+Envía la rama (git push origin feature/nueva-funcionalidad)
+Abre un Pull Request
 
-**Ernesto Lázaro Guerrero**
-- Role: UI/UX Designer
-- LinkedIn: [LinkedIn Profile](#)
-- Behance: [Behance Portfolio](#)
+# 📄 Licencia
 
-## 🙏 Acknowledgments
+Este proyecto es público y propietario.
 
-- Design inspiration from modern portfolio websites
-- Icons by [Lucide](https://lucide.dev)
-- Built with [React](https://react.dev) and [Tailwind CSS](https://tailwindcss.com)
+# 👤 Autor
+
+Ernesto Lázaro Guerrero
+Rol: Diseñador UI/UX
+LinkedIn: Perfil de LinkedIn
+Behance: Portafolio en Behance
+
+# 🙏 Agradecimientos
+
+Inspiración de diseño tomada de sitios web de portafolios modernos
+Íconos por Lucide
+Construido con React
+ y Tailwind CSS
 
 ---
-
-**Version**: 1.0.0 (MVP)
-**Status**: Production Ready
-**Last Updated**: December 2024
