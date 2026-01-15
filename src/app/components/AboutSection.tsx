@@ -3,6 +3,34 @@ import image_cdbf46178ea2d5345171aef0fd65f04e5e481247 from 'figma:asset/cdbf4617
 import profileImage from 'figma:asset/5ccd15c1839f54a30ff7e3f45788fba272dfaa03.png';
 import aboutSectionImage from 'figma:asset/8d872f12ea9741361ad982c31fa76442d9adc8eb.png';
 
+/**
+ * Componente AboutSection - Sección "Sobre Mí"
+ * 
+ * FUNDAMENTOS DE ACCESIBILIDAD (WCAG 2.1 AA):
+ * 
+ * 1. PERCEPTIBLE:
+ *    - h2 para título de sección, h3 para certificaciones
+ *    - Imagen con alt descriptivo
+ *    - Contraste de texto cumple ratio 4.5:1
+ *    - Iconos emoji con significado complementado por texto
+ * 
+ * 2. OPERABLE:
+ *    - Contenido navegable por teclado
+ *    - Tarjetas de certificación enfocables
+ *    - Efectos hover también disponibles para focus
+ *    - ID de sección permite navegación directa
+ * 
+ * 3. COMPRENSIBLE:
+ *    - Estructura clara: imagen + biografía + certificaciones
+ *    - Información organizada lógicamente
+ *    - Texto en español claro y conciso
+ *    - Jerarquía visual y semántica coherente
+ * 
+ * 4. ROBUSTO:
+ *    - HTML5 semántico (<section>, <h2>, <h3>)
+ *    - Grid responsive adaptable
+ *    - Compatible con tecnologías asistivas
+ */
 export function AboutSection() {
   const certifications = [
     {

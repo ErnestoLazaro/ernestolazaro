@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Portfolio Preview]([[https://drive.google.com/file/d/1iH3kmw_ekW_7GRjIWFXAldckDH6PKI4z/view?usp=sharing](https://drive.google.com/file/d/1iH3kmw_ekW_7GRjIWFXAldckDH6PKI4z/view?usp=sharing)](https://drive.google.com/file/d/1aPdElbw_z4TmBLbC3n0OsMKD-fUliUaq/view?usp=sharing))
+![Portfolio Preview](https://drive.google.com/file/d/1aPdElbw_z4TmBLbC3n0OsMKD-fUliUaq/view?usp=sharing)
 
 **Portfolio profesional de diseño UI/UX con tema oscuro moderno**
 
@@ -58,6 +58,7 @@ Este es un **portfolio profesional completamente funcional** diseñado para most
 ![Ernesto Lázaro Guerrero](https://drive.google.com/file/d/1iH3kmw_ekW_7GRjIWFXAldckDH6PKI4z/view?usp=sharing)
 
 ### Ernesto Lázaro Guerrero
+
 **Diseñador UI/UX | Ingeniero de Soporte**
 
 </div>
@@ -69,6 +70,7 @@ La tecnología ha sido el motor que ha guiado cada etapa del camino profesional 
 Su trayectoria combina un sólido background técnico con una creciente expertise en diseño centrado en el usuario. Esta fusión única le permite crear interfaces no solo visualmente atractivas, sino también funcionales y accesibles.
 
 **Certificaciones:**
+
 - 🎨 **Google UX Design** - Certified
 - 📚 **Carrera Platzi UX/UI** - Diploma
 - ☁️ **AWS Certified Cloud Practitioner** - Certified
@@ -143,13 +145,13 @@ Su trayectoria combina un sólido background técnico con una creciente expertis
 
 ### UI Libraries & Components
 
-| Librería | Versión | Propósito |
-|----------|---------|-----------|
-| **@mui/material** | 7.3.5 | Componentes Material UI |
-| **@emotion/react** | 11.14.0 | Styling con CSS-in-JS |
-| **@radix-ui** | Varias | Componentes UI accesibles |
-| **lucide-react** | 0.487.0 | Iconos modernos |
-| **motion** | 12.23.24 | Animaciones fluidas |
+| Librería           | Versión  | Propósito                 |
+| ------------------ | -------- | ------------------------- |
+| **@mui/material**  | 7.3.5    | Componentes Material UI   |
+| **@emotion/react** | 11.14.0  | Styling con CSS-in-JS     |
+| **@radix-ui**      | Varias   | Componentes UI accesibles |
+| **lucide-react**   | 0.487.0  | Iconos modernos           |
+| **motion**         | 12.23.24 | Animaciones fluidas       |
 
 ### Formularios & Validación
 
@@ -309,52 +311,59 @@ VITE_CONTACT_EMAIL=ernesto@example.com
 ### Componentes Principales
 
 #### Header
+
 Navegación principal con scroll suave y diseño sticky.
 
 ```tsx
-import { Header } from '@/app/components/Header';
+import { Header } from "@/app/components/Header";
 ```
 
 #### HeroSection
+
 Sección hero con presentación impactante.
 
 ```tsx
-import { HeroSection } from '@/app/components/HeroSection';
+import { HeroSection } from "@/app/components/HeroSection";
 ```
 
 #### AboutSection
+
 Información personal y certificaciones.
 
 ```tsx
-import { AboutSection } from '@/app/components/AboutSection';
+import { AboutSection } from "@/app/components/AboutSection";
 ```
 
 #### PortfolioSection
+
 Galería de proyectos destacados.
 
 ```tsx
-import { PortfolioSection } from '@/app/components/PortfolioSection';
+import { PortfolioSection } from "@/app/components/PortfolioSection";
 ```
 
 #### SkillsSection
+
 Habilidades técnicas categorizadas.
 
 ```tsx
-import { SkillsSection } from '@/app/components/SkillsSection';
+import { SkillsSection } from "@/app/components/SkillsSection";
 ```
 
 #### ContactSection
+
 Formulario de contacto funcional.
 
 ```tsx
-import { ContactSection } from '@/app/components/ContactSection';
+import { ContactSection } from "@/app/components/ContactSection";
 ```
 
 #### Footer
+
 Pie de página con información adicional.
 
 ```tsx
-import { Footer } from '@/app/components/Footer';
+import { Footer } from "@/app/components/Footer";
 ```
 
 ---
@@ -392,15 +401,46 @@ Para cambiar el esquema de colores, edita las variables en `theme.css` y todos l
 
 ## ♿ Accesibilidad
 
-Este portfolio cumple con los estándares **WCAG 2.1 nivel AA**:
+Este portfolio cumple con los estándares **WCAG 2.1 nivel AA** establecidos por el W3C:
 
-- ✅ Contraste de colores adecuado (mínimo 4.5:1)
-- ✅ Navegación por teclado completa
-- ✅ ARIA labels en elementos interactivos
-- ✅ Textos alternativos en imágenes
-- ✅ Estructura semántica HTML5
-- ✅ Focus visible en elementos interactivos
-- ✅ Responsive para diferentes necesidades
+### 🎯 Cumplimiento WCAG 2.1 AA
+
+**Los 4 Principios Fundamentales:**
+
+1. **PERCEPTIBLE** - La información es presentable a los usuarios de formas que puedan percibir
+2. **OPERABLE** - Los componentes de interfaz y navegación son operables
+3. **COMPRENSIBLE** - La información y operación de interfaz es comprensible
+4. **ROBUSTO** - El contenido es interpretable por diversos agentes de usuario
+
+### ✅ Características Implementadas
+
+- ✅ **Contraste de colores**: Ratio mínimo 4.5:1 (muchos elementos cumplen AAA con 7:1+)
+- ✅ **Navegación por teclado completa**: Todo accesible con Tab, Enter, Espacio
+- ✅ **ARIA labels descriptivos**: En elementos interactivos y landmarks
+- ✅ **Textos alternativos**: Todas las imágenes con alt descriptivos
+- ✅ **HTML5 semántico**: Uso correcto de header, nav, main, section, footer
+- ✅ **Estados focus visibles**: Indicadores claros para navegación por teclado
+- ✅ **Responsive accesible**: Áreas de toque mínimas 44x44px
+- ✅ **Lectores de pantalla**: Compatible con NVDA, JAWS, VoiceOver, TalkBack
+- ✅ **Sin trampas de teclado**: Navegación libre por toda la aplicación
+- ✅ **Jerarquía de encabezados**: h1 > h2 > h3 correctamente estructurados
+
+### 📖 Documentación Detallada
+
+Para información completa sobre accesibilidad, incluyendo:
+- Guía detallada de cada principio WCAG
+- Características por componente
+- Pruebas de accesibilidad realizadas
+- Herramientas de verificación
+- Compatibilidad con tecnologías asistivas
+
+**Consulta**: [ACCESSIBILITY.md](/ACCESSIBILITY.md)
+
+### 🔗 Referencias
+
+- [W3C Web Accessibility Initiative](https://www.w3.org/WAI/)
+- [Introducción a la Accesibilidad Web (Español)](https://www.w3.org/WAI/fundamentals/accessibility-intro/es)
+- [WCAG 2.1 Guidelines](https://www.w3.org/WAI/WCAG21/quickref/)
 
 ---
 
@@ -410,6 +450,8 @@ Este proyecto incluye documentación completa (+22,500 palabras) para diferentes
 
 | Documento | Audiencia | Descripción |
 |-----------|-----------|-------------|
+| **README.md** | Todos | Guía general del proyecto |
+| **ACCESSIBILITY.md** | Todos | Guía completa de accesibilidad WCAG 2.1 AA |
 | **EXECUTIVE_SUMMARY.md** | Ejecutivos | Resumen de alto nivel |
 | **TECH_LEADERS_PRESENTATION.md** | Líderes técnicos | Arquitectura y decisiones |
 | **DEVELOPER_GUIDE.md** | Desarrolladores | Guía técnica completa |
