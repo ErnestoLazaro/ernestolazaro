@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Portfolio Preview](https://images.unsplash.com/photo-1559028006-448665bd7c7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXNpZ24lMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzY4NDU0Mjg2fDA&ixlib=rb-4.1.0&q=80&w=1080)
+![Portfolio Preview](https://drive.google.com/file/d/1iH3kmw_ekW_7GRjIWFXAldckDH6PKI4z/view?usp=sharing)
 
 **Portfolio profesional de diseño UI/UX con tema oscuro moderno**
 
@@ -55,7 +55,7 @@ Este es un **portfolio profesional completamente funcional** diseñado para most
 
 <div align="center">
 
-![Ernesto Lázaro Guerrero](https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=300&q=80)
+![Ernesto Lázaro Guerrero](https://drive.google.com/file/d/1iH3kmw_ekW_7GRjIWFXAldckDH6PKI4z/view?usp=sharing)
 
 ### Ernesto Lázaro Guerrero
 **Diseñador UI/UX | Ingeniero de Soporte**
@@ -250,7 +250,7 @@ Asegúrate de tener instalado:
 1. **Clona el repositorio**
 
 ```bash
-git clone https://github.com/tu-usuario/portfolio-ernesto.git
+git clone https://github.com/ErnestoLazaro
 cd portfolio-ernesto
 ```
 
@@ -451,11 +451,11 @@ Este proyecto es de código abierto y está disponible bajo la licencia MIT.
 
 **Ernesto Lázaro Guerrero**
 
-- 🌐 Portfolio: [tu-portfolio.com](#)
-- 📧 Email: ernesto@example.com
-- 💼 LinkedIn: [linkedin.com/in/ernesto-lazaro-guerrero](#)
-- 🐙 GitHub: [github.com/ernesto](#)
-- 🎨 Behance: [behance.net/ernesto](#)
+- 🌐 Página Web Profesional: [tu-portfolio.com](https://www.ernestolazaro.com.mx/)
+- 📧 Email: ernestolazaro84@gmail.com
+- 💼 LinkedIn: [linkedin.com/in/ernesto-lazaro](https://www.linkedin.com/in/ernesto-lazaro/)
+- 🐙 GitHub: [github.com/ernesto](https://github.com/ErnestoLazaro)
+- 🎨 Behance: [behance.net/ernesto](https://www.behance.net/ernestolazaro1)
 
 ---
 
