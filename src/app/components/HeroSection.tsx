@@ -1,8 +1,10 @@
 import image_cdbf46178ea2d5345171aef0fd65f04e5e481247 from 'figma:asset/cdbf46178ea2d5345171aef0fd65f04e5e481247.png';
 import image_8bbc0d83a610da106433d8220493c9e84b4eb187 from 'figma:asset/8bbc0d83a610da106433d8220493c9e84b4eb187.png';
 import image_5ccd15c1839f54a30ff7e3f45788fba272dfaa03 from 'figma:asset/5ccd15c1839f54a30ff7e3f45788fba272dfaa03.png';
-import { Download } from 'lucide-react';
+import { Download, X } from 'lucide-react';
 import profileImage from 'figma:asset/d1d051bc1013cbe40f6814b87c8bb68964b22141.png';
+import cvImage from 'figma:asset/c06cc6c4f5e7f9ac6fb2f8dbe0c16056e3d99b05.png';
+import { useState } from 'react';
 
 /**
  * Componente HeroSection - Sección Principal de Presentación
@@ -33,6 +35,8 @@ import profileImage from 'figma:asset/d1d051bc1013cbe40f6814b87c8bb68964b22141.p
  *    - Compatible con tecnologías asistivas
  */
 export function HeroSection() {
+  const [isCVOpen, setIsCVOpen] = useState(false);
+
   return (
     <section className="relative min-h-screen flex items-center pt-16 overflow-hidden">
       {/* Background Gradient */}
@@ -66,18 +70,18 @@ export function HeroSection() {
               >
                 Ver Portafolio
               </a>
-              <a
-                href="#"
+              <button
+                onClick={() => setIsCVOpen(true)}
                 className="px-6 py-3 bg-transparent border border-[var(--portfolio-text-secondary)] hover:border-white text-white rounded-lg transition-all flex items-center gap-2"
               >
                 <Download size={18} />
                 Descargar CV
-              </a>
+              </button>
             </div>
 
             {/* Social Links - Enlaces a redes sociales con accesibilidad */}
             <div className="flex items-center gap-4 pt-4">
-              <span className="text-[var(--portfolio-text-muted)] text-sm" aria-label="Iniciales">ELG</span>
+              <span className="text-[var(--portfolio-text-muted)] text-sm" aria-label="Iniciales"></span>
               <a
                 href="https://www.behance.net/ernestolazaro1"
                 target="_blank"
@@ -128,6 +132,43 @@ export function HeroSection() {
           </div>
         </div>
       </div>
+
+      {/* CV Modal */}
+      {isCVOpen && (
+        <div 
+          className="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center z-50 p-4"
+          onClick={() => setIsCVOpen(false)}
+          role="dialog"
+          aria-modal="true"
+          aria-label="Modal de visualización de CV"
+        >
+          <div 
+            className="relative max-w-4xl w-full max-h-[90vh] bg-[var(--portfolio-navy-medium)] rounded-lg shadow-2xl border border-[var(--portfolio-navy-light)]"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Header del modal con botón de cerrar */}
+            <div className="flex items-center justify-between p-4 border-b border-[var(--portfolio-navy-light)]">
+              <h3 className="text-xl font-bold text-white">Curriculum Vitae</h3>
+              <button
+                onClick={() => setIsCVOpen(false)}
+                className="p-2 text-[var(--portfolio-text-secondary)] hover:text-white hover:bg-[var(--portfolio-navy-light)] rounded-lg transition-colors"
+                aria-label="Cerrar modal de CV"
+              >
+                <X size={24} aria-hidden="true" />
+              </button>
+            </div>
+            
+            {/* Contenedor de la imagen con scroll */}
+            <div className="overflow-auto max-h-[calc(90vh-80px)] p-4">
+              <img
+                src={cvImage}
+                alt="Curriculum Vitae de Ernesto Lázaro Guerrero - Ingeniero y Diseñador UX/UI"
+                className="w-full h-auto rounded-lg shadow-lg"
+              />
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   );
 }
