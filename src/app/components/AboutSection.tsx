@@ -65,7 +65,7 @@ export function AboutSection() {
               <img
                 src={aboutSectionImage}
                 alt="Ernesto Lázaro Guerrero"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover scale-[1.3]"
               />
             </div>
           </div>
