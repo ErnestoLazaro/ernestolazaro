@@ -52,6 +52,7 @@ export default function App() {
     <div className="min-h-screen bg-[var(--portfolio-navy-dark)]">
       {/* Navegación principal - Landmark para lectores de pantalla */}
       <Header />
+   
       
       {/* Contenido principal - Landmark para lectores de pantalla */}
       <main>
